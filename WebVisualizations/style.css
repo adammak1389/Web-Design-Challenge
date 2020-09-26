@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    padding: 0 2px;
+  }
+  
+  .row img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    .row {
+      padding: 5px;
+    }
+  
+    .row {
+      margin: 25px 25px 25px 25px;
+    }
+    #row {
+      display: inline;
+    }
+}
